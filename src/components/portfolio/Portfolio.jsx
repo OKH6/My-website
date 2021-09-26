@@ -9,10 +9,16 @@ import {
     designPortfolio,
     contentPortfolio,
   } from "../../data";
+import Portolists from "./Projects"
+
   
 import {useEffect,useState} from "react";
+
+
+
 export default function Portfolio() {
     const [selected, setSelected] = useState("featured");
+    const [project, setProject] = useState("Projects");
     const [data, setData] = useState([]);
     const list = [
       {
@@ -29,7 +35,13 @@ export default function Portfolio() {
       },
     ];
 
+    function asd(props){
+      if (this.props.type="projects") {
 
+        
+      }
+    
+    }
 
     useEffect(() => {
         switch (selected) {
@@ -51,7 +63,12 @@ export default function Portfolio() {
           default:
             setData(featuredPortfolio);
         }
-      }, [selected]);
+        switch (project) {
+          default:
+            setProject("Projects");
+        }
+
+      }, [selected,project]);
 
     return (
         <div className="portfolio" id="porto">
@@ -69,24 +86,13 @@ export default function Portfolio() {
 
             </ul>
             <div className="container">
-                {data.map((d) => (
-                    <div className="item">
-                        <img
-                        src={d.img}
-                        alt=""
-                        />
-                        
-                        <h3>{d.title}</h3>
-                        <div className="cons">
-                          <a href= {d.link} target="_blank"><GitHub className="icon"/></a>
-                        
-                          
-                          <Description className="icon"/>
-                        </div>
+                <Portolists data={data}/>
 
-                        
-                    </div>
-                ))}
+
+
+
+
+
             </div>
             
         </div>
