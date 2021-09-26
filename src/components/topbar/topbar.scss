@@ -1,17 +1,19 @@
 @import "../../global.scss";
 
 .topbar{
+    overflow-y: hidden;
+
     width: 100%;
-    height: 70px;
-    background-color: white;
-    color: $mainColour;
+    height: 60px;
+    background-color: $mainColour;
+    color: $mainFontColour;
     position: fixed;
     top: 0;
     z-index: 3;
     transition: all 1s ease;
 
     .wrapper{
-        padding: 10px 30px;
+        padding: 5px 30px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -60,7 +62,7 @@
                 span{
                     width: 100%;
                     height: 3px;
-                    background-color: $mainColour;
+                    background-color: $mainFontColour;
                     transform-origin: left;
                     transition: all 2s ease;
 
@@ -69,12 +71,12 @@
         }
     }
     &.active{
-        background-color: $mainColour;
-        color: white;
+
+        color: $mainFontColour;;
         .hamburger{
             span{
                 &:first-child{
-                    background-color: white;
+                    background-color: $mainFontColour;
                     transform: rotate(45deg);
                 }
                 &:nth-child(2){
@@ -82,7 +84,7 @@
 
                 }
                 &:last-child{
-                    background-color: white;
+                    background-color: $mainFontColour;
                     transform: rotate(-45deg);
                 }
             }

@@ -18,7 +18,6 @@ export default function Intro() {
                 </div>
                 <a href="#porto">
                     <ArrowDownwardIcon className="icon"/>
-
                 </a>
 
             </div>

@@ -6,18 +6,12 @@
         height: calc(100vh - 70px);
         background-color: rgb(240, 26, 26);
         position: relative;
-        top: 70px;
-        scroll-behavior: smooth;
-        scroll-snap-type: y mandatory;
+        top: 60px;
+        //scroll-behavior: smooth;
+        //scroll-snap-type: y mandatory;
         scrollbar-width: none;
         &::-webkit-scrollbar{
             display: none;
-        }
-
-        > *{
-            width: 100vw;
-            height: calc(100vh - 70px);
-            scroll-snap-align: start;
         }
         
     }

@@ -1,5 +1,6 @@
 @import "../../global.scss";
 .portfolio{
+    height: 750px;
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -15,23 +16,25 @@
         padding: 0;
         list-style: none;
         display: flex;
+        flex-wrap: wrap;
 
 
 
 
     }
     .container{
-        width: 70%;
+        width: 90%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
         .item{
             position: relative;
-            width: 220px;
-            height: 150px;
-            border-radius: 10px;
-            border: 1px solid white;
+            overflow-x: hidden;
+            width: 300px;
+            height: 250px;
+            border-radius: 20px;
+            border: 1px solid rgb(0, 0, 0);
             margin: 10px 20px;
             display: flex;
             align-items: center;
@@ -40,8 +43,12 @@
             transition: all 0.5s ease;
             cursor: pointer;
             h3{
+                border-radius: 20px;
+                border: 9px solid $mainColour;;
+                background-color: $mainColour;;
                 position: absolute;
                 font-size: 20px;
+                z-index: 2;
 
             }
             img{
@@ -50,13 +57,52 @@
                 object-fit: cover;
                 z-index: 1;
             }
+            .cons{
+                color: white;
+                background-color: transparent;
+                width: 200px;
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 50px;
+                z-index: 0;
+                .icon{
+                    width: 45px;
+                    height: 45px;
+                    color: white;
+                    
+                    margin: 0px 25px;
+
+
+                }
+                
+            }
 
             &:hover{
+                cursor: default;
+
                 background-color: $mainColour;
                 img{
-                    opacity: 0.2;
-                    z-index: 0;
+                    opacity: 0.1;
+                    z-index: 1;
                 }
+                h3{
+                    z-index: 0;
+                    opacity: 0;
+                }
+                .cons{
+                    z-index: 5;
+                    .icon{
+                        &:hover{
+                            cursor: pointer;
+            
+            
+            
+                        }
+                    }
+                }
+
 
             }
         }
