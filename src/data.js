@@ -20,6 +20,13 @@ export const featuredPortfolio = [
         "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
       link: "https://github.com/OKH6/WebGl_3DRoom"
     },
+    {
+      id: 4,
+      title: "Web Design",
+      img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
+      link: "https://github.com/OKH6/WebGl_3DRoom"
+    },
+
   ];
   
   export const webPortfolio = [
@@ -47,18 +54,7 @@ export const featuredPortfolio = [
       img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
       link: "https://github.com/OKH6/WebGl_3DRoom"
     },
-    {
-      id: 5,
-      title: "Web Design",
-      img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
-      link: "https://github.com/OKH6/WebGl_3DRoom"
-    },
-    {
-      id: 6,
-      title: "Web Banking App",
-      img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
-      link: "https://github.com/OKH6/WebGl_3DRoom"
-    },
+
   ];
   
   export const mobilePortfolio = [

@@ -86,7 +86,11 @@ export default function Portfolio() {
 
             </ul>
             <div className="container">
-                <Portolists data={data}/>
+              <div className="cent">
+                <Portolists Type={"projects"} data={data} />
+
+              </div>
+                
 
 
 

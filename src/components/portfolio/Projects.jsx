@@ -11,29 +11,10 @@ import {Person,Description,GitHub} from "@material-ui/icons"
 
 
 class HandleProjects extends Component {
-    constructor(props) {
-        super(props)
-      
-        this.state = {
-          Type: "projects",
-          data: {}
-           
-        }
-      }
 
-
-
-
-
-
-
-
-
-
-
-      
       render(){
-        if (this.state.Type=="projects") {
+        console.log(this.props.Type)
+        if (this.props.Type==="projects") {
             return(
               <div className="added">
               {this.props.data.map((d) => (
@@ -52,7 +33,13 @@ class HandleProjects extends Component {
             )
           
         }else{
-          return <div>Broken</div>
+          return(
+
+            <h1>Broken {this.props.Type}</h1>
+
+
+
+          ) 
         }
     
       }
