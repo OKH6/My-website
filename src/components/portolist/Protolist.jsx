@@ -1,9 +1,19 @@
 import "./portolist.scss"
 
-export default function Protolist({id,title,active,setSelected}) {
-    return (
-        <li className={active ? "portolist active":"portolist"} onClick={()=>{ console.log("dsd"); setSelected(id)}} >
-            {title}
-        </li>
-    )
+export default function Protolist({project,id,title,active,setSelected}) {
+    console.log("fdsafdsfdsfdsfdsfdsfdsf")
+    console.log(project)
+    if(project=="projects"){
+        return (
+            <li className={active ? "portolist active":"portolist"} onClick={()=>{ setSelected(id)}} >
+                {title}
+            </li>
+        )
+
+    }else{
+        return (
+            <div></div>
+        )
+    }
+
 }

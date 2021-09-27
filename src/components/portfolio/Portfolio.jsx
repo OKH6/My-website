@@ -35,13 +35,6 @@ export default function Portfolio() {
       },
     ];
 
-    function asd(props){
-      if (this.props.type="projects") {
-
-        
-      }
-    
-    }
 
     useEffect(() => {
         switch (selected) {
@@ -49,16 +42,13 @@ export default function Portfolio() {
 
             setData(featuredPortfolio);
             console.log(project)
-            setProject("projects");
 
             break;
           case "web":
             setData(webPortfolio);
-            setProject("projects");
             break;
           case "mobile":
             setData(mobilePortfolio);
-            setProject("projects");
             break;
           default:
             setData(featuredPortfolio);
@@ -74,10 +64,11 @@ export default function Portfolio() {
         <div className="portfolio" id="porto">
           <div className="cant">
           
-            <h1>Porto</h1>
+            <h1>Portfolio</h1>
             <ul>
                 {list.map((item)=>(
                     <Portolist 
+                    project={project}
                     title={item.title} 
                     active={selected===item.id} 
                     setSelected={setSelected}
@@ -92,7 +83,7 @@ export default function Portfolio() {
 
             <div className="container">
               <div className="cent">
-                <Portolists Type={project} data={data} setProject={setProject} />
+                <Portolists Type={project} data={data} setProject={setProject} setSelected={setSelected} selected={selected} />
 
               </div>
                 
