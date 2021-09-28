@@ -2,19 +2,31 @@
 .portfolio{
     background-color: rgb(255, 255, 255);
     display: flex;
+    padding-bottom: 50px;
     flex-direction: column;
-    //align-items: center;
+    align-items: center;
     justify-content: center;
+    hr{
+        background-color: #000000;
+        color: #ffffff;
+        width: 150%;
+        height: 1.8px;
 
+    }
     padding: 0 0 100px;
+
     .cant{
+
+        min-width: 100%;
+        
+        padding-bottom: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
         h1{
-            font-size: 50px;
+            font-size: 60px;
 
 
         }
@@ -25,19 +37,33 @@
             display: flex;
             flex-wrap: wrap;
 
-
-
-
         }
     }
     .container{
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        max-width: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .Content{
+            .icon{
+                cursor: pointer;
+
+            }
+            
+        }
+
+
+
+
+
+
         .added{
             display: flex;
-            
-            justify-content: left;
-            align-items: left;
+            justify-content: center;
+            align-items: center;
             flex-wrap: wrap;
             
             .item{
@@ -60,7 +86,7 @@
                     background-color: $mainColour;;
                     position: absolute;
                     font-size: 20px;
-                    z-index: 2;
+                    z-index: 1;
 
                 }
                 img{
@@ -104,7 +130,7 @@
                         opacity: 0;
                     }
                     .cons{
-                        z-index: 5;
+                        z-index: 1;
                         .icon{
                             &:hover{
                                 cursor: pointer;

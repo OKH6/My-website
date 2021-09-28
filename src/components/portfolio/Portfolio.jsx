@@ -10,7 +10,6 @@ import {
     contentPortfolio,
   } from "../../data";
 import Portolists from "./Projects"
-
   
 import {useEffect,useState} from "react";
 
@@ -61,10 +60,17 @@ export default function Portfolio() {
       }, [selected]);
 
     return (
+      
         <div className="portfolio" id="porto">
+      
+
+
+
+
           <div className="cant">
-          
+            <hr className="hr"/>
             <h1>Portfolio</h1>
+            <hr className="hr"/>
             <ul>
                 {list.map((item)=>(
                     <Portolist 
@@ -82,10 +88,9 @@ export default function Portfolio() {
             
 
             <div className="container">
-              <div className="cent">
-                <Portolists Type={project} data={data} setProject={setProject} setSelected={setSelected} selected={selected} />
+              <Portolists Type={project} data={data} setProject={setProject} setSelected={setSelected} selected={selected} />
 
-              </div>
+         
                 
 
 
