@@ -3,6 +3,7 @@
     height: calc(100vh - 60px);
     background-color: rgb(141, 141, 141);
     display: flex;
+    
     .left{
         flex: 0.5;
         overflow: hidden;
@@ -11,7 +12,9 @@
         
 
         justify-content: center;
+        align-items: center;
         flex-direction: column;
+        
 
 
      
@@ -19,22 +22,29 @@
 
 
         .imageContainer{
-            border-radius: 350px;
+
+
+            border-width: 55px;
+            border-color: rgb(0, 0, 0);
+            border-style: solid;
+           
             background-color: rgb(42, 42, 42);
             margin: 0px 0px 0px 5%;
-
+            
 
             
-            width: 600px;
-            height: 600px; 
+
+            
+            width: 500px;
+            height: 500px; 
             display: flex;
             align-items: bottom;
             justify-content: center;
             float: top;
             img{
                 bottom: -30px;
-                max-width:650px;
-                max-height:650px;
+                max-width:800px;
+                max-height:800px;
                 width: auto;
                 height: auto;
             }
@@ -46,7 +56,9 @@
     .right{
         position: relative;
         flex: 0.5;
+
         .wrapper{
+            border: 150px;
             width: 100%;
             height: 100%;
             padding-left: 50px;
