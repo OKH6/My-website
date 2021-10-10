@@ -9,18 +9,59 @@ export const featuredPortfolio = [
     },
     {
       id: 2,
-      title: "E-commerce Web Design",
+      title: "OpenMP optimasation",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+        "https://www.lifewire.com/thmb/at_-WtOLCLO4bXOm7NUoS3LbZZE=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-952011128-fb298c0df6324b52be07b9b13ad31cb8.jpg",
     },
     {
       id: 3,
-      title: "Relax Mobile App",
+      title: "Rainforcement learning",
+      img:
+        "https://miro.medium.com/max/4918/1*Y0TDuXNyywjqqr5l5GkMQQ.png",
+      link: "https://github.com/OKH6/WebGl_3DRoom"
+    },
+    {
+      id: 4,
+      title: "MaskOn game",
       img:
         "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
       link: "https://github.com/OKH6/WebGl_3DRoom"
     },
-
+    {
+      id: 5,
+      title: "Latex file compressor",
+      img:
+        "https://blog.online-convert.com/wp-content/uploads/2016/06/The-Differences-Between-Lossless-And-Lossy-Compression.jpg",
+      link: "https://github.com/OKH6/WebGl_3DRoom"
+    },
+    {
+      id: 6,
+      title: "Bulliton Board",
+      img:
+        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+      link: "https://github.com/OKH6/WebGl_3DRoom"
+    },
+    {
+      id: 7,
+      title: "chainging lives",
+      img:
+        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+      link: "https://github.com/OKH6/WebGl_3DRoom"
+    },
+    {
+      id: 8,
+      title: "Bluetooth messaging app",
+      img:
+        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+      link: "https://github.com/OKH6/WebGl_3DRoom"
+    },
+    {
+      id: 9,
+      title: "Mobile object detection",
+      img:
+        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+      link: "https://github.com/OKH6/WebGl_3DRoom"
+    },
   ];
   
   export const webPortfolio = [

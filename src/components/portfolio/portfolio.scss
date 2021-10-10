@@ -1,4 +1,5 @@
 @import "../../global.scss";
+$SeconderyColour: #595c59;
 .portfolio{
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -66,6 +67,29 @@
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
+            .underBar{
+                //padding-top: 5px;
+                //padding: 3px 0px 3px 0;
+                padding-left: 20px;
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                max-width: 300px;
+                flex-wrap: wrap;
+                h4{
+                    border-radius: 14px;
+                    border: 6px solid $SeconderyColour;
+                    background-color: $SeconderyColour;
+
+                    margin: 1px 3px 1px 3px;
+         
+                    color: white;
+                    font-size: 13px;
+
+
+                }
+                
+            }
             
             .item{
                 position: relative;
@@ -73,7 +97,7 @@
                 width: 350px;
                 height: 300px;
                 border-radius: 20px;
-                border: 1px solid rgb(0, 0, 0);
+                border: 5px solid rgb(49, 49, 49);
                 margin: 10px 20px;
                 display: flex;
                 align-items: center;

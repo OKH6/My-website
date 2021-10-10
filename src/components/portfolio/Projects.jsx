@@ -25,14 +25,26 @@ class HandleProjects extends Component {
               
               <div className="added">
               {this.props.data.map((d) => (
+                <div>
                   <div className="item">
                       <img src={d.img} alt="" />
                       <h3>{d.title}</h3>
                       <div className="cons">
                         <a href= {d.link} target="_blank"><GitHub className="icon"/></a>
                         <Description className="icon" onClick={()=> this.props.setProject("WebGL")}/>
+                        
                       </div>
+                      
                   </div>
+                  <div className="underBar">
+                    <h4>{d.title}</h4>
+                    <h4>{d.title}</h4>
+                    <h4>{d.title}</h4>
+
+                  </div>
+                  
+                </div>
+                  
               ))}
               </div>
         
