@@ -1,5 +1,5 @@
 @import "../../global.scss";
-$SeconderyColour: #595c59;
+$SeconderyColour: #8a8a8a;
 .portfolio{
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -10,9 +10,9 @@ $SeconderyColour: #595c59;
     
     hr{
         background-color: #000000;
-        color: #ffffff;
+
         width: 150%;
-        height: 1.8px;
+        height: 5px;
 
     }
     padding: 0 0 100px;
@@ -76,12 +76,13 @@ $SeconderyColour: #595c59;
                 align-items: center;
                 max-width: 300px;
                 flex-wrap: wrap;
+                flex-direction: row;
                 h4{
                     border-radius: 14px;
                     border: 6px solid $SeconderyColour;
                     background-color: $SeconderyColour;
 
-                    margin: 1px 3px 1px 3px;
+                    margin: 3px 3px 10px 3px;
          
                     color: white;
                     font-size: 13px;
@@ -98,7 +99,7 @@ $SeconderyColour: #595c59;
                 height: 300px;
                 border-radius: 20px;
                 border: 5px solid rgb(49, 49, 49);
-                margin: 10px 20px;
+                margin: 0px 20px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -147,7 +148,7 @@ $SeconderyColour: #595c59;
 
                     background-color: $mainColour;
                     img{
-                        opacity: 0.1;
+                        opacity: 0.33;
                         z-index: 1;
                     }
                     h3{

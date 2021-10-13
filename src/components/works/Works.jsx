@@ -20,8 +20,18 @@ export default function Works() {
                             <h3>JavaScript</h3>
                         </div>
                         <div className="item">
-                            <img src="assets/PY.png" alt="" />
+                            <img src="assets/PY.jpg" alt="" />
                             <h3>Python</h3>
+                            
+                        </div>
+                        <div className="item">
+                            <img src="assets/C.jpg" alt="" />
+                            <h3>C</h3>
+                            
+                        </div>
+                        <div className="item">
+                            <img src="assets/Cpp.jpg" alt="" />
+                            <h3>C++</h3>
                             
                         </div>
 

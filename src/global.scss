@@ -1,2 +1,9 @@
 $mainColour: #000000;
 $mainFontColour: #ffffff;
+
+$width: 768px;
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
