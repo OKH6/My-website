@@ -1,13 +1,11 @@
 import Portolist from "../portolist/Protolist";
-import GitHubIcon from '@material-ui/icons/ArrowDownward';
-import {Person,Description,GitHub} from "@material-ui/icons"
+
 import "./portfolio.scss"
 import {
     featuredPortfolio,
     webPortfolio,
     mobilePortfolio,
-    designPortfolio,
-    contentPortfolio,
+
   } from "../../data";
 import Portolists from "./Projects"
   
@@ -26,11 +24,11 @@ export default function Portfolio() {
       },
       {
         id: "web",
-        title: "Web App",
+        title: "Web & Desktop Apps",
       },
       {
         id: "mobile",
-        title: "Mobile App",
+        title: "Mobile Apps",
       },
     ];
 
@@ -38,22 +36,31 @@ export default function Portfolio() {
     useEffect(() => {
         switch (selected) {
           case "featured":
-
             setData(featuredPortfolio);
-            console.log(project)
-
+            setProject("projects");
+            break;
+          case "featuredBack":
+            setData(featuredPortfolio);
+            setProject("projects");
             break;
           case "web":
             setData(webPortfolio);
+            setProject("projects");
+            break;
+          case "webBack":
+            setData(webPortfolio);
+            setProject("projects");
             break;
           case "mobile":
             setData(mobilePortfolio);
+            setProject("projects");
+            break;
+          case "mobileBack":
+            setData(mobilePortfolio);
+            setProject("projects");
             break;
           default:
             setData(featuredPortfolio);
-        }
-        switch (project) {
-          default:
             setProject("projects");
         }
 
@@ -62,21 +69,31 @@ export default function Portfolio() {
     return (
       
         <div className="portfolio" id="porto">
-      
 
+
+
+          <div className="head">
+            <hr className="hr"/>
+            <h1>Portfolio</h1>
+            <hr className="hr"/>
+          </div>
 
 
 
           <div className="cant">
-            <hr className="hr"/>
-            <h1>Portfolio</h1>
-            <hr className="hr"/>
+
+
+
+
+
+
             <ul>
                 {list.map((item)=>(
                     <Portolist 
                     project={project}
                     title={item.title} 
-                    active={selected===item.id} 
+                    active={selected===item.id || selected.substring(0, selected.length-4)===item.id } 
+            
                     setSelected={setSelected}
                     id={item.id}
                     />

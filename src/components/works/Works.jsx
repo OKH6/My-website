@@ -1,5 +1,5 @@
 import "./works.scss"
-import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
+
 export default function Works() {
     return (
         <div className="works" id="works">

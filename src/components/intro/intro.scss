@@ -3,9 +3,16 @@
 
 
 .intro{
+    background: url('./back.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 0 0 4px rgb(255, 255, 255);
+    color: white;
     width: 100vw;
-    height: calc(100vh - 60px);
-    background-color: rgb(141, 141, 141);
+    min-height: 500px;
+    background-color: rgb(233, 230, 230);
     display: flex;
     
     .left{
@@ -31,27 +38,22 @@
         .imageContainer{
 
 
-            border-width: 55px;
-            border-color: rgb(0, 0, 0);
+            border-width: 10px;
+            border-color: rgb(17, 17, 17);
             border-style: solid;
            
             background-color: rgb(42, 42, 42);
             margin: 0px 0px 0px 5%;
-            
-
-            
-
-            
-            width: 500px;
-            height: 500px; 
+            width: 250px;
+            height: 250px; 
             display: flex;
             align-items: bottom;
             justify-content: center;
             float: top;
             img{
                 bottom: -30px;
-                max-width:800px;
-                max-height:800px;
+                max-width:400px;
+                max-height:400px;
                 width: auto;
                 height: auto;
             }
@@ -97,6 +99,8 @@
             left: 40%;
             .icon{
                 font-size: 80px;
+                color: white;
+                
                 animation: arrowBlink 2s infinite;
             }
             @keyframes arrowBlink {

@@ -5,14 +5,14 @@ export const featuredPortfolio = [
       id: 1,
       title: "WebGl 3D room",
       img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+        "assets/webgl.png",
       link: "https://github.com/OKH6/WebGl_3DRoom",
       tags: ["WebGL","JS","Shaders"],
       content: ()=>{
         return(
           <div>
           <hr className="hr"/>
-          <h1>saFDSAGDFAGSFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDSGHFSDHGFSSSSSSSSSSSSSSSSSSSSSSSSSHFGDHGFDHGFDDHGFDHGFDHGFDHGFDBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBGFFFFFFFFFFFFFFFFFFSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</h1>
+          <h1>saFDSAGDFAGS</h1>
           <hr className="hr"/>
           </div>
 
@@ -29,12 +29,16 @@ export const featuredPortfolio = [
         "https://www.lifewire.com/thmb/at_-WtOLCLO4bXOm7NUoS3LbZZE=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-952011128-fb298c0df6324b52be07b9b13ad31cb8.jpg",
         link: "https://github.com/OKH6/WebGl_3DRoom",
         tags: ["C++","OpenMP","ODEs","Multithreding"],
-        content: ()=> {
-          <div>
+        content: ()=>{
+          return(
+            <div>
             <hr className="hr"/>
-            <h1>Portfolio</h1>
+            <h1>saFDSAGDFAGS</h1>
             <hr className="hr"/>
-          </div>
+            </div>
+  
+          )
+  
         }
     },
     {
@@ -44,12 +48,16 @@ export const featuredPortfolio = [
         "https://miro.medium.com/max/4918/1*Y0TDuXNyywjqqr5l5GkMQQ.png",
       link: "https://github.com/OKH6/WebGl_3DRoom",
       tags: ["Game","Markov Chains","DeepQ"],
-      content: ()=> {
-        <div>
+      content: ()=>{
+        return(
+          <div>
           <hr className="hr"/>
-          <h1>Portfolio</h1>
+          <h1>saFDSAGDFAGS</h1>
           <hr className="hr"/>
-        </div>
+          </div>
+
+        )
+
       }
     },
     {
@@ -59,42 +67,54 @@ export const featuredPortfolio = [
         "assets/maskon.png",
       link: "https://github.com/OKH6/WebGl_3DRoom",
       tags: ["C#","Unity","Blender"],
-      content: ()=> {
-        <div>
+      content: ()=>{
+        return(
+          <div>
           <hr className="hr"/>
-          <h1>Portfolio</h1>
+          <h1>saFDSAGDFAGS</h1>
           <hr className="hr"/>
-        </div>
+          </div>
+
+        )
+
       }
     },
     {
       id: 5,
       title: "Latex file compressor",
       img:
-        "https://blog.online-convert.com/wp-content/uploads/2016/06/The-Differences-Between-Lossless-And-Lossy-Compression.jpg",
+        "assets/compress.jpg",
       link: "https://github.com/OKH6/WebGl_3DRoom",
       tags: ["PPM","Arithmatic Coding","Python"],
-      content: ()=> {
-        <div>
+      content: ()=>{
+        return(
+          <div>
           <hr className="hr"/>
-          <h1>Portfolio</h1>
+          <h1>saFDSAGDFAGS</h1>
           <hr className="hr"/>
-        </div>
+          </div>
+
+        )
+
       }
     },
     {
       id: 6,
-      title: "Bulliton Board",
+      title: "Bulletin Board",
       img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+        "assets/bulletin.jpg",
       link: "https://github.com/OKH6/WebGl_3DRoom",
       tags: ["Python","TCP"],
-      content: ()=> {
-        <div>
+      content: ()=>{
+        return(
+          <div>
           <hr className="hr"/>
-          <h1>Portfolio</h1>
+          <h1>saFDSAGDFAGS</h1>
           <hr className="hr"/>
-        </div>
+          </div>
+
+        )
+
       }
     },
     {
@@ -104,42 +124,54 @@ export const featuredPortfolio = [
         "assets/changing lives.png",
       link: "https://github.com/OKH6/WebGl_3DRoom",
       tags: ["JS","CSS","Node.JS","BootStrap"],
-      content: ()=> {
-        <div>
+      content: ()=>{
+        return(
+          <div>
           <hr className="hr"/>
-          <h1>Portfolio</h1>
+          <h1>saFDSAGDFAGS</h1>
           <hr className="hr"/>
-        </div>
+          </div>
+
+        )
+
       }
     },
     {
       id: 8,
       title: "Bluetooth messaging app",
       img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+        "assets/Blue.jpg",
       link: "https://github.com/OKH6/WebGl_3DRoom",
       tags: ["sdsd","dsf"],
-      content: ()=> {
-        <div>
+      content: ()=>{
+        return(
+          <div>
           <hr className="hr"/>
-          <h1>Portfolio</h1>
+          <h1>saFDSAGDFAGS</h1>
           <hr className="hr"/>
-        </div>
+          </div>
+
+        )
+
       }
     },
     {
       id: 9,
       title: "Mobile object detection",
       img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+        "assets/obj.jpg",
       link: "https://github.com/OKH6/WebGl_3DRoom",
-      tags: ["sdsd","dsf"],
-      content: ()=> {
-        <div>
+      tags: ["Tenserflow Light","C++","Android"],
+      content: ()=>{
+        return(
+          <div>
           <hr className="hr"/>
-          <h1>Portfolio</h1>
+          <h1>saFDSAGDFAGS</h1>
           <hr className="hr"/>
-        </div>
+          </div>
+
+        )
+
       }
     },
     {
@@ -148,7 +180,7 @@ export const featuredPortfolio = [
       img:
         "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
       link: "https://github.com/OKH6/WebGl_3DRoom",
-      tags: ["sdsd","dsf"],
+      tags: ["Python","Distributed systems","API"],
       content: ()=> {
         <div>
           <hr className="hr"/>
@@ -156,6 +188,23 @@ export const featuredPortfolio = [
           <hr className="hr"/>
         </div>
       }
+    },
+    {
+      id: 11,
+      title: "First order Logic parser",
+      img:
+        "assets/comp.jpg",
+      link: "https://github.com/OKH6/WebGl_3DRoom",
+      tags: ["Python","Math","Logic","Compiler Design"],
+    },
+    {
+      id: 11,
+      title: "Conway's Game Of Life",
+      img:
+        "assets/gol.jpg",
+      link: "https://github.com/OKH6/WebGl_3DRoom",
+      tags: ["C","Game","Math"],
+
     },
   ];
   
