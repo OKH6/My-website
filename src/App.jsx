@@ -21,12 +21,12 @@ function App() {
       <div className="sections">
        
 
-        <Intro className="a"/>
+        <Intro/>
         <About/>
 
-        <Porto className="a"/>
-        <Works className="b"/>
-        <Contacts className="b"/>
+        <Porto />
+        <Works />
+        <Contacts />
 
 
       </div>

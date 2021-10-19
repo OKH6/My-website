@@ -55,7 +55,7 @@ export default function Contacts() {
             </div>   
 
 
-            <div className="contact" id="contacts">
+            <div className="contact" id="contact">
                 <div className="left">
                     <img src="assets/shake.svg" alt="" />
                 </div>
