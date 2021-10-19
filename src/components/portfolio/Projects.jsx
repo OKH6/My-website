@@ -16,6 +16,9 @@ class HandleProjects extends Component {
 
   render(){
     if (this.props.Type==="projects") {
+
+
+      console.log(this.props.data[0])
         return(
 
 
@@ -64,8 +67,23 @@ class HandleProjects extends Component {
       
     }else{
       console.log(this.props.Type)
-      var Acc= this.props.data[0].content
+      var Loc=0;
+      for (let index = 0; index < this.props.data.length; index++) {
+        if (this.props.data[index].id===this.props.Type) {
+          Loc=index;
+          break;
+          
+        }
+        
+      }
+
+
+
+      var Acc= this.props.data[Loc].content
       console.log(this.props.selected.substring(0, this.props.selected.length-4));
+
+
+
       return(
         <div className="Content">
           <ArrowBack className="icon" onClick={()=>{
