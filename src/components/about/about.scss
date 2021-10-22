@@ -48,12 +48,14 @@ $SeconderyColour: #8a8a8a;
 
 
     .text{
-        padding: 7%;
+        padding: 4% 3% 0 5%;
+        text-shadow: 0 0 1px rgb(255, 255, 255);
 
         li{
             border-radius: 0px;
             cursor: default;
             list-style: none;
+            font-size: 30px;
             color: white;
             list-style-type: none;
         }
