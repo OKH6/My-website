@@ -30,32 +30,39 @@ class HandleProjects extends Component {
           <div className="added">
           {this.props.data.map((d) => (
             <div>
-              <div className="item">
+                <div className="item">
                   <img src={d.img} alt="" />
                   <h3>{d.title}</h3>
+
+        
+                  {d.description ? <li>{d.description}</li>:""}
+                  <h2>Technologies used</h2>
+                  <div className="underBar">
+                    
+                      {d.tags.map((x)=> (
+                        <div>
+                        <h4>{x}</h4>
+
+                        </div>
+
+                      ))}
+                      
+                  </div>
                   <div className="cons">
-                    
-                    <a href= {d.link} target="_blank"><GitHub className="icon"/></a>
-                    {d.content ? <Description className="icon" onClick={()=> this.props.setProject(d.id)}/>:""}
+
+                  {d.link ? <a href= {d.link} target="_blank"><GitHub className="icon"/></a>:<h1>Coming Soon</h1>}
+                  {d.content ? <Description className="icon" onClick={()=> this.props.setProject(d.id)}/>:""}
 
 
 
-                    
-                    
-                    
-                  </div>
-                  
-              </div>
-              <div className="underBar">
-                {d.tags.map((x)=> (
-                  <div>
-                  <h4>{x}</h4>
+
+
+
+
 
                   </div>
+                </div>
 
-                ))}
-                
-              </div>
               
             </div>
               
@@ -76,25 +83,29 @@ class HandleProjects extends Component {
         }
         
       }
-
-
-
       var Acc= this.props.data[Loc].content
       console.log(this.props.selected.substring(0, this.props.selected.length-4));
 
-
-
       return(
         <div className="Content">
-          <ArrowBack className="icon" onClick={()=>{
-            if(this.props.selected==="featured"){this.props.setSelected("featuredBack")}
-            else if(this.props.selected==="web"){this.props.setSelected("webBack")}
-            else if(this.props.selected==="mobile"){this.props.setSelected("mobileBack")}
-            else if(this.props.selected==="webBack"){this.props.setSelected("web")}
-            else if(this.props.selected==="mobileBack"){this.props.setSelected("mobile")}
-            else if(this.props.selected==="featuredBack"){this.props.setSelected("featured")}
-            } }/>
-        <h1>Broken {this.props.Type}</h1>
+          <div className="Line">
+            <ArrowBack className="icon" onClick={()=>{
+              if(this.props.selected==="featured"){this.props.setSelected("featuredBack")}
+              else if(this.props.selected==="web"){this.props.setSelected("webBack")}
+              else if(this.props.selected==="mobile"){this.props.setSelected("mobileBack")}
+              else if(this.props.selected==="webBack"){this.props.setSelected("web")}
+              else if(this.props.selected==="mobileBack"){this.props.setSelected("mobile")}
+              else if(this.props.selected==="featuredBack"){this.props.setSelected("featured")}
+              } }> HELLO</ArrowBack>
+            <div>
+
+              <h1>{this.props.data[Loc].title}</h1>
+              <hr className="hr"/>
+            </div>
+
+
+          </div>
+
         <Acc />
         </div>
 

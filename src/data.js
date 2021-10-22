@@ -3,19 +3,11 @@ var webgl={
   title: "WebGl 3D room",
   img:
     "assets/webgl.png",
-  link: "https://github.com/OKH6/WebGl_3DRoom",
+  link: "https://github.com/OKH6/WebGL-3D-Room",
   tags: ["WebGL","JS","Shaders"],
-  content: ()=>{
-    return(
-      <div>
-      <hr className="hr"/>
-      <h1>WebGl 3D room</h1>
-      <hr className="hr"/>
-      </div>
+  //description: "sadsadsadasdads"
+  description: "A 3D environment simulating a room created using WebGl with some basic controls. WebG is a web based API based on OpenGL"
 
-    )
-
-  }
 
 }
 
@@ -24,19 +16,10 @@ var OpenMP=    {
   title: "OpenMP optimasation",
   img:
     "https://www.lifewire.com/thmb/at_-WtOLCLO4bXOm7NUoS3LbZZE=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-952011128-fb298c0df6324b52be07b9b13ad31cb8.jpg",
-    link: "https://github.com/OKH6/WebGl_3DRoom",
+    link: "https://github.com/OKH6/Parallel-computing",
     tags: ["C++","OpenMP","ODEs","Multithreding"],
-    content: ()=>{
-      return(
-        <div>
-        <hr className="hr"/>
-        <h1>OpenMP optimasation</h1>
-        <hr className="hr"/>
-        </div>
-  
-      )
-  
-    }
+  description: "A C++ simulation of particles moving in space. The main targets of this project is to deal with numerical impressisions and to add OpenMP vectorisation and multithreading support."
+
 
 }
 
@@ -47,7 +30,7 @@ var Atari= {
   title: "Atari Gravitar Agent",
   img:
     "https://miro.medium.com/max/4918/1*Y0TDuXNyywjqqr5l5GkMQQ.png",
-  link: "https://github.com/OKH6/WebGl_3DRoom",
+  link: "https://github.com/OKH6/Atari-Gravitar-Agent-PDQN",
   tags: ["Game","Rainforcement learning","PDQN"],
 
 }
@@ -57,7 +40,7 @@ var CovidFighter=    {
   title: "Covid fighter game",
   img:
     "assets/maskon.png",
-  link: "https://github.com/OKH6/WebGl_3DRoom",
+  link: "https://github.com/OKH6/Unity-Covid-Fighter-Game",
   tags: ["C#","Unity","Blender","Animation"],
 
 }
@@ -69,8 +52,9 @@ var LatexComp=    {
   title: "Latex file compressor",
   img:
     "assets/compress.jpg",
-  link: "https://github.com/OKH6/WebGl_3DRoom",
+  link: "https://github.com/OKH6/Text-compression-ppm",
   tags: ["PPM","Arithmatic Coding","Python"],
+  //description: "A C++ simulation of particles moving in space. The main targets of this project is to deal with numerical impressisions and to add OpenMP vectorisation and multithreading support."
 
 }
 
@@ -100,7 +84,7 @@ var ObjrctDet=    {
   title: "Mobile object detection",
   img:
     "assets/obj.jpg",
-  link: "https://github.com/OKH6/WebGl_3DRoom",
+  link: "https://github.com/OKH6/ObjectDetection",
   tags: ["Tenserflow Light","C++","Android"],
 
 
@@ -112,8 +96,9 @@ var ObjrctDet=    {
     title: "Just Hungry",
     img:
       "assets/distributed.jpg",
-    link: "https://github.com/OKH6/WebGl_3DRoom",
+    link: "https://github.com/OKH6/Just-Hungry-Distributed-Systems",
     tags: ["Python","Distributed systems","API"],
+    description: "A python program that simulates a food ordering service using a fault tolerant distributed system based on passive replication."
 
   }
 
@@ -122,8 +107,10 @@ var ObjrctDet=    {
     title: "First order Logic parser",
     img:
       "assets/comp.jpg",
-    link: "https://github.com/OKH6/WebGl_3DRoom",
+    link: "https://github.com/OKH6/First-Order-Logic-parser",
     tags: ["Python","Math","Logic","Compiler Design"],
+    //description: "A C++ simulation of particles moving in space. The main targets of this project is to deal with numerical impressisions and to add OpenMP vectorisation and multithreading support."
+
   }
 
 
@@ -132,8 +119,10 @@ var ObjrctDet=    {
     title: "Conway's Game Of Life",
     img:
       "assets/gol.jpg",
-    link: "https://github.com/OKH6/WebGl_3DRoom",
+    link: "https://github.com/OKH6/C-game-of-life",
     tags: ["C","Game","Math"],
+    //description: "A C++ simulation of particles moving in space. The main targets of this project is to deal with numerical impressisions and to add OpenMP vectorisation and multithreading support."
+
 
   }
 
@@ -144,7 +133,7 @@ var ObjrctDet=    {
     title: "Personal Website",
     img:
       "assets/pweb.png",
-    link: "https://github.com/OKH6/WebGl_3DRoom",
+    link: "https://github.com/OKH6/My-website",
     tags: ["React","JS","SCSS"],
 
   }
@@ -156,24 +145,21 @@ var ObjrctDet=    {
     title: "Bluetooth messaging app",
     img:
       "assets/Blue.jpg",
-    link: "https://github.com/OKH6/WebGl_3DRoom",
+    //link: "https://github.com/OKH6/WebGl_3DRoom",
     tags: ["sdsd","dsf"],
 
   }
 export const featuredPortfolio = [
     webgl,
-    OpenMP,
-    CovidFighter,
-    Atari,
-
-    LatexComp,
-    Board,
-    ChangingLives,
-    ObjrctDet,
     JustHungry,
+    OpenMP,
     LogicParser,
+    LatexComp,
     Conway,
-    PersonalWeb,
+
+
+
+
     //BluetoothMes,
   ];
   

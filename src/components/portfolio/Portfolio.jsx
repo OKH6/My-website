@@ -20,7 +20,7 @@ export default function Portfolio() {
     const list = [
       {
         id: "featured",
-        title: "All",
+        title: "Featured",
       },
       {
         id: "web",
@@ -73,9 +73,9 @@ export default function Portfolio() {
 
 
           <div className="head">
-            <hr className="hr"/>
+          
             <h1>Portfolio</h1>
-            <hr className="hr"/>
+
           </div>
 
 
