@@ -13,8 +13,8 @@ export default function Intro() {
             <div className="right">
                 <div className="wrapper">
                     <h2>Hi there, Im</h2>
-                    <h1> OKH6</h1>
-                    <h3>Student <span> </span></h3>
+                    <h1> Osama Housien</h1>
+                    <h3>A Student at Durham University <span> </span></h3>
                 </div>
                 <a href="#porto">
                     <ArrowDownwardIcon className="icon"/>
