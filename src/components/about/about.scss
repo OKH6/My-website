@@ -48,21 +48,26 @@ $SeconderyColour: #8a8a8a;
 
 
     .text{
-        padding: 4% 3% 0 5%;
+        padding: 3% 5% 2% 5%;
         text-shadow: 0 0 1px rgb(255, 255, 255);
 
         li{
             border-radius: 0px;
             cursor: default;
             list-style: none;
-            font-size: 30px;
+            font-size: 35px;
             color: white;
             list-style-type: none;
         }
         h3{
-            text-shadow: 0 0 1px rgb(255, 255, 255);
+            outline: 5px solid rgb(43, 43, 43);
+            outline-offset: 3px;
+            border-radius: 10px;
+            background-color: rgb(84, 84, 84);
+            text-shadow: 0 0 1px rgb(199, 196, 196);
+            font-weight: normal;
             color: rgb(255, 255, 255);
-            font-size: 25px;
+            font-size: 35px;
 
         }
     }
