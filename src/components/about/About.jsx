@@ -12,10 +12,7 @@ export default function About() {
             </div>  
 
             <div className="text">
-            <li>I am a hardworking and ambitious individual with a great passion for technology. I am currently in my fourth and final year of
-studying MEng Computer Science at Durham University. Actively looking for a software engineering position with a fast-paced and
-ambitious company that can offer development training, project-based learning and a mentoring program.</li> 
-
+            <h3>A final year MEng  Computer Science student at Durham University. Currently interested in using Computer Vision and Deep Learning to measure video quality. Also highly interested in distributed systems and networks, particularly the use of networks in high-performance computing(HPC). I am a hardworking and ambitious individual with a great passion for technology. Actively looking for a software engineering position with a fast-paced and ambitious company.</h3>
             </div>
 
 
