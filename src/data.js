@@ -6,16 +6,16 @@ var webgl={
   link: "https://github.com/OKH6/WebGL-3D-Room",
   tags: ["WebGL","JS","Shaders"],
   //description: "sadsadsadasdads"
-  description: "A 3D environment simulating a room created using WebGl with some basic controls. WebG is a web based API based on OpenGL"
+  description: "A 3D environment simulating a room created using WebGl with some basic controls. WebGl is a web based API based on OpenGL"
 
 
 }
 
 var OpenMP=    {
   id: 2,
-  title: "OpenMP optimasation",
+  title: "OpenMP optimization",
   img:
-    "https://www.lifewire.com/thmb/at_-WtOLCLO4bXOm7NUoS3LbZZE=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-952011128-fb298c0df6324b52be07b9b13ad31cb8.jpg",
+    "assets/omp.png",
     link: "https://github.com/OKH6/Parallel-computing",
     tags: ["C++","OpenMP","ODEs","Multithreding"],
   description: "A C++ simulation of particles moving in space. The main targets of this project is to deal with numerical impressisions and to add OpenMP vectorisation and multithreading support."
@@ -31,17 +31,21 @@ var Atari= {
   img:
     "https://miro.medium.com/max/4918/1*Y0TDuXNyywjqqr5l5GkMQQ.png",
   link: "https://github.com/OKH6/Atari-Gravitar-Agent-PDQN",
-  tags: ["Game","Rainforcement learning","PDQN"],
+  tags: ["Pytorch","Rainforcement learning","PDQN","Jupyter notebook"],
+  description: "A reinforcement learning agent using prioritized DQN and Open AI Gym for the Atari game gravitar implemented in Pytorch."
+
 
 }
 
 var CovidFighter=    {
   id: 4,
-  title: "Covid fighter game",
+  title: "MaskON",
   img:
     "assets/maskon.png",
   link: "https://github.com/OKH6/Unity-Covid-Fighter-Game",
   tags: ["C#","Unity","Blender","Animation"],
+  description: "A COVID fighter game built using Unity and Blender. Made use of Unity AI for NPCs movements."
+
 
 }
 
@@ -55,7 +59,7 @@ var LatexComp=    {
   link: "https://github.com/OKH6/Text-compression-ppm",
   tags: ["PPM","Arithmatic Coding","Python"],
   //description: "A C++ simulation of particles moving in space. The main targets of this project is to deal with numerical impressisions and to add OpenMP vectorisation and multithreading support."
-
+  description: "An implementation of the ppm compression algorithm using Arithmatic encoding in python to compress and decompress text files"
 }
 
 var Board=    {
@@ -65,6 +69,7 @@ var Board=    {
     "assets/bulletin.jpg",
   link: "https://github.com/OKH6/WebGl_3DRoom",
   tags: ["Python","TCP"],
+  description: "A TCP client-server application implemited using pyro4 in python. Allows client to access bullitin boards and post messages. All requests are logged"
 
 }
 
@@ -76,7 +81,7 @@ var ChangingLives=    {
     "assets/changing lives.png",
   link: "https://github.com/OKH6/ChangingLives",
   tags: ["JS","CSS","Node.JS","BootStrap"],
-
+  description: "A responsive and flexible website and API for sharing and editing emloyment support docunments."
 }
 
 var ObjrctDet=    {
@@ -109,7 +114,7 @@ var ObjrctDet=    {
       "assets/comp.jpg",
     link: "https://github.com/OKH6/First-Order-Logic-parser",
     tags: ["Python","Math","Logic","Compiler Design"],
-    //description: "A C++ simulation of particles moving in space. The main targets of this project is to deal with numerical impressisions and to add OpenMP vectorisation and multithreading support."
+    description: "A program that takes as an input an FOL formula detects any logical errors and produces a parse tree of the formula following a top-down parsing approach"
 
   }
 
@@ -121,7 +126,7 @@ var ObjrctDet=    {
       "assets/gol.jpg",
     link: "https://github.com/OKH6/C-game-of-life",
     tags: ["C","Game","Math"],
-    //description: "A C++ simulation of particles moving in space. The main targets of this project is to deal with numerical impressisions and to add OpenMP vectorisation and multithreading support."
+    description: "A Conway's Game of Life implementation in C. Made use of C structures, header files and makefiles"
 
 
   }
@@ -135,6 +140,7 @@ var ObjrctDet=    {
       "assets/pweb.png",
     link: "https://github.com/OKH6/My-website",
     tags: ["React","JS","SCSS"],
+    description: "A portofolio website to present some of the projects I made over the years"
 
   }
 
