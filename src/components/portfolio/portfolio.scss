@@ -90,7 +90,7 @@ $SeconderyColour: #8a8a8a;
     }
     .container{
 
-        max-width: 1200px;
+        max-width: 1400px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -158,10 +158,10 @@ $SeconderyColour: #8a8a8a;
                 overflow-x: hidden;
                 width: 350px;
                 background-color: rgb(104, 104, 104);
-                min-height: 350px;
+                min-height: 635px;
                 border-radius: 20px;
                 
-                //border: 8px solid transparent;
+                border: 1.5px solid black;
                 margin: 14px 25px 20px;
                 display: flex;
                 align-items: center;
@@ -242,7 +242,7 @@ $SeconderyColour: #8a8a8a;
 
                 &:hover{
                     cursor: default;
-                    box-shadow: 0px 0px 12px 5px rgb(126, 126, 126);
+                    box-shadow: 0px 0px 12px 6px rgb(21, 21, 21);
 
                     // background-color: $mainColour;
                     // img{
